@@ -69,6 +69,10 @@ sqlite3 /tmp/stories-restored.sqlite < database/stories.sql
 
 Use a new/empty destination for imports. The dump uses **SQLite SQL dialect**; it is not a PostgreSQL or MySQL migration. The schema alone is in [`database/schema.sql`](database/schema.sql).
 
+## Competitor and market events
+
+`data/external/` lists real, sourced competitor events (café openings, a Café Najjar product launch, rival Ramadan offers) and 2026 Lebanon war and ceasefire dates. `src/competitor_events.py` turns them into day-level features and tests them against daily baskets. No competitor event moved Stories' baskets. Baskets kept growing through the war that the café sector says cut its trade sharply. See [`data/external/EVENTS_SOURCES.md`](data/external/EVENTS_SOURCES.md).
+
 ## Reconciliation and limitations
 
 - Revenue: **$305,925.14**. Recorded gross profit: **$179,430.49**. Orders: **33,887**. Item lines: **51,177**.

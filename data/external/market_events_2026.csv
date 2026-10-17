@@ -1,0 +1,9 @@
+event_id,start_date,end_date,event,event_type,description,source_url,date_confidence
+M01,2026-03-02,2026-06-30,2026 Lebanon war,conflict,"Hezbollah strikes on Israel on 2 March, followed by Israeli airstrikes including on Beirut; no single agreed end date (US-Iran-Lebanon committee to conclude the war announced 30 June)",https://en.wikipedia.org/wiki/2026_Lebanon_war,start_exact_end_open
+M02,2026-03-12,2026-03-12,Ramlet al-Baida drone strike,conflict,"Drone strike on the Beirut seafront killed at least 8 and wounded 31 (Stories has a Ramlet El Bayda branch)",https://en.wikipedia.org/wiki/2026_Ramlet_al-Baida_airstrike,exact
+M03,2026-03-16,2026-03-16,Israeli ground operations begin,conflict,Ground operations in southern Lebanon begin,https://en.wikipedia.org/wiki/Timeline_of_the_2026_Lebanon_war,exact
+M04,2026-04-08,2026-04-08,8 April Israeli attacks on Lebanon,conflict,Wide wave of Israeli strikes across Lebanon,https://en.wikipedia.org/wiki/8_April_2026_Israeli_attacks_on_Lebanon,exact
+M05,2026-04-16,2026-04-16,10-day ceasefire announced,ceasefire,"US-mediated Israel-Lebanon cessation of hostilities; Israeli airstrikes continued",https://en.wikipedia.org/wiki/2026_Israel%E2%80%93Lebanon_ceasefire,exact
+M06,2026-05-15,2026-05-15,Ceasefire extended 45 days,ceasefire,Truce extended for another 45 days,https://en.wikipedia.org/wiki/2026_Israel%E2%80%93Lebanon_ceasefire,exact
+M07,2026-06-03,2026-06-03,Israel-Lebanon conditional ceasefire agreement,ceasefire,"US-facilitated agreement; Hezbollah rejected it on 4 June",https://www.aljazeera.com/news/2026/6/4/israel-and-lebanon-agree-to-conditional-ceasefire,exact
+M08,2026-06-19,2026-06-19,Israel-Hezbollah truce in force,ceasefire,"Truce announced by the US president, effective 4 p.m. local time; sources disagree on this date",https://en.wikipedia.org/wiki/Hezbollah%E2%80%93Israel_conflict_(2023%E2%80%93present),sources_conflict

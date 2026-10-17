@@ -1,62 +1,84 @@
 <div align="center">
 
-# Stories Coffee
+# Stories · Business Recommendations
 
-**Sales analysis & seven recommendations for better business decisions**
+**Upload a CSV. Get six clear recommendations, charts and answers.**
 
-Garden · Harbour · Uptown<br>
-EECE 490 Hackathon · January–June 2026
-
-[Findings](#key-findings) · [Recommendations](#recommendations) · [Dashboard](#dashboard) · [Setup](reports/project_guide.md#how-to-run)
+**Live app: Render production URL pending your deployment.**
 
 </div>
 
-## Project background
+## What the app does
 
-We analyzed six months of Stories Coffee transactions to understand branch profitability, busy hours and promotion opportunities. Python analysis, a Streamlit dashboard and scenario simulations turn those findings into small, measurable tests.
+Upload your sales CSV and receive a plain-language report covering:
 
-## Data at a glance
+| Decision | What you receive |
+| --- | --- |
+| Opening hours | Quieter opening/closing hours to review by branch, with the cost saving needed to justify a change |
+| Branch closure | Branch profit comparison and what must be checked before deciding to close |
+| Restocking | Recent sales quantities to guide preparation, by branch and item |
+| Waste | Slower-selling fresh items to review for smaller batches; no invented waste savings |
+| Prices | Break-even sales changes for a 5% increase and a 5% decrease |
+| Combos | Specific two-item pairs and branch/time windows to test, with evidence from earlier and later sales |
 
-| Branches | Products | Item lines | Baskets |
-| :---: | :---: | :---: | :---: |
-| 3 | 45 | 51,177 | 33,887 |
+Each recommendation includes **what to do, why, a next step, and a Python-generated chart**. Supporting numbers are available without cluttering the main report. Download the report as a self-contained HTML file.
 
-**Revenue:** $305,925.14 &nbsp; · &nbsp; **Recorded gross profit:** $179,430.49
+**Recommendations change with the uploaded dataset.** Branches, products, schedules, quantities, pairings, charts and price thresholds are recomputed from that CSV. The app does not return a fixed list of Stories recommendations. The 5% price scenarios, combo observation thresholds and time-window definitions are fixed analytical choices; their results vary with the data.
 
-Totals cover January 1–June 30, 2026 across all three branches. Baskets can contain multiple item lines. Gross profit excludes payroll, rent and other operating expenses.
+Sales alone cannot reveal rent, payroll, inventory on hand, expiry, waste or how customers will respond to a new offer. The app identifies review priorities and small tests, and states what information is missing. Gross profit is sales minus recorded product costs, before operating expenses. No prospective commercial pilot has validated these recommendations.
 
-## Key findings
+## Our NLP approach
 
-- **Garden’s costs need a closer look.** Recorded margin is 46.91%, versus Harbour’s 64.96%. Matching Harbour’s product costs at Garden’s actual quantities creates a **$15,923.47 six-month GP difference**. Cash savings depend on invoice verification.
-- **Evenings drive the business.** 19:00–23:59 accounts for **44.6% of recorded GP**. The 21:00 hour has 4,273 baskets across the six months, versus 724 at 07:00.
-- **Larger discounted baskets do not prove an offer works.** Existing comparisons cannot identify incremental demand. Weather features also failed to improve the repository’s May–June forecast check.
+The language assistant helps business stakeholders understand the calculated report:
 
-![Recorded gross margin by branch, January–June 2026](reports/figures/branch_margin.png)
+1. **Natural-language input:** the stakeholder types a question, or clicks **Ask about this recommendation**.
+2. **Grounding:** Python supplies the current report's calculated facts and assumptions. Charts, raw transaction rows and customer IDs are excluded from model context.
+3. **Interpretation and explanation:** Gemini interprets the question and explains the relevant findings in ordinary business language. Recent follow-ups provide conversation context.
+4. **Fallback:** if Gemini fails, the server tries DeepSeek when `DEEPSEEK_API_KEY` is configured. The interface identifies the provider that answered.
+5. **Evidence boundary:** the assistant is instructed to avoid inventing missing inputs, treatment effects or new numerical scenarios. Financial calculations and chart generation remain in Python.
 
-## Recommendations
+This is report-grounded prompting, not model fine-tuning, a trained intent classifier, semantic search or a causal model. LLM explanations can still make mistakes; inspect the supplied calculations before a business decision.
 
-| | Action | First step |
-| :---: | :--- | :--- |
-| **01** | **Audit Garden’s costs** | Trace the top five cost-gap contributors to invoices before changing suppliers. |
-| **02** | **Plan by the clock** | Match preparation and coverage to branch/hour demand. |
-| **03** | **Test discounts in quiet periods** | Randomize no offer, 10% and 15% before purchase; include nonbuyers. |
-| **04** | **Ask “want a pastry?”** | Test a full-price evening prompt with cold coffee; monitor queues. |
-| **05** | **Test a 5% price rise** | Start at one branch with concurrent controls; track whole-basket contribution. |
-| **06** | **Test opening later** | Confirm removable staff hours before trying Uptown at 09:00 and Garden at 08:00. |
-| **07** | **Hold unsupported promotions** | Require incremental contribution before seasonal, late-evening or bundle rollouts. |
+## Run
 
-**Simulation context:** a chain-wide +5% price scenario gives median six-month GP gain **$7,305** (P5–P95: $3,025–$11,128). The three early branch-hour closures give median **$656 over 182 days** (−$807 to +$2,315), positive in 75.2% of draws. Both use 20,000 draws, seed 490. These are assumption-based scenarios, not proven gains or one-branch pilot forecasts.
-
-**Scale only when contribution after extra costs improves and service stays healthy.** Stop for quality or queue breaches, or if realized costs erase the benefit. No commercial pilot has occurred. [Assumptions, evidence and individual stop rules →](reports/recommendations_guide.md)
-
-## Dashboard
-
-Explore sales, profitability, forecasts and editable scenarios in **Streamlit**. Use Python 3.14 and place the authorized `stories_transactions.csv` at the repository root.
+Requires Python 3.12 or newer.
 
 ```sh
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python -m streamlit run app.py
+.venv/bin/python -m decision_room.server
 ```
 
-[Full setup & reproducibility](reports/project_guide.md#how-to-run) · [Decision notebook](colab_recommendations/Stories_Coffee_Decision_Lab.ipynb) · [Feature notebook](notebooks/feature_effects.ipynb) · [Verification](reports/verification.md)
+Open [the local app](http://127.0.0.1:8765). Upload the authorized CSV; no database is required. The page provides a CSV header template and accepts files under 40 MB. Dates use `YYYY-MM-DD`, times `HH:MM:SS`, and money is USD.
+
+## Server configuration
+
+Set these in the server environment, or copy `decision_room/.env.example` to the ignored `decision_room/.env`:
+
+```dotenv
+GEMINI_API_KEY=your_key
+DEEPSEEK_API_KEY=your_optional_backup_key
+```
+
+`GEMINI_MODEL` and `DEEPSEEK_MODEL` are optional. Gemini uses a model discovered from the account; DeepSeek defaults to `deepseek-flash`. A Gemini key cannot authenticate to DeepSeek. Without provider keys, the calculated recommendations and charts still work.
+
+The Gemini key has been stored as the repository's encrypted `GEMINI_API_KEY` Actions secret. **GitHub Actions secrets do not automatically become Render environment variables.** Set the key in Render's server environment as well. No credential is committed or embedded in the browser.
+
+For your Render setup, the build command is `pip install -r requirements.txt` and the start command is `python -m decision_room.server`. The app reads `PORT`, binds publicly when `RENDER` is set, and recognizes `RENDER_EXTERNAL_URL`. Replace the production-link line at the top with your actual Render URL after deploying. No deployment was performed as part of this submission cleanup.
+
+## Verify
+
+```sh
+.venv/bin/python -m unittest discover -s decision_room/tests -p test_submission.py -v
+node --check decision_room/static/app.js
+```
+
+Portable tests cover all six recommendation layers, charts, changes across datasets, CSV validation, aggregate-only language-model context and provider fallback. Provider fallback is tested with mocked failures; live DeepSeek verification requires its separate key.
+
+## Submission contents
+
+Only the CSV recommendation app, its minimal Python helpers, frontend, requirements, CI checks and portable tests are submitted. No raw dataset, database, key, notebook, slide deck or old dashboard is included in the current source tree.
+
+Uploads are processed in server memory and are not saved as raw files. Aggregate reports remain in the browser session's server memory until eviction or restart. Follow-ups share aggregate report facts with the configured provider. A single-process server is intended for this prototype; durable multi-instance sessions, access controls and stronger abuse limits would be needed for a larger public service.
+
+**Team:** John Kofdarelli. , MARC ZEENY

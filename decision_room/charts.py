@@ -6,6 +6,8 @@ import textwrap
 import threading
 
 os.environ.setdefault('MPLCONFIGDIR','/tmp/stories-matplotlib')
+os.environ.setdefault('XDG_CACHE_HOME','/tmp/stories-cache')
+os.makedirs(os.environ['XDG_CACHE_HOME'],exist_ok=True)
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 import numpy as np

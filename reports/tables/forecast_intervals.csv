@@ -1,7 +1,0 @@
-target,q10,q90,model,grain
-baskets,0.8351838232247771,1.16384476227946,Linear trend × weekday,day
-baskets,0.9531322175625611,1.0248751573448587,Linear trend × weekday,week
-gp,0.8048298357250199,1.1706305526292995,Linear trend × weekday,day
-gp,0.9562912672726032,1.0316755032268436,Linear trend × weekday,week
-revenue,0.8004315300605942,1.1710003182921513,Linear trend × weekday,day
-revenue,0.9551330194215227,1.0259207526413827,Linear trend × weekday,week

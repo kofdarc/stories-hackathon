@@ -1,7 +1,0 @@
-import fs from 'node:fs/promises';
-import crypto from 'node:crypto';
-import {finalizePresentation} from '/Users/johnkofdarelli/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations/container_tools/artifact_tool_utils.mjs';
-const root='/Users/johnkofdarelli/stories-hackathon';
-const src=root+'/reports/Stories_Recommendations_ELI5.pptx';
-const r=await finalizePresentation({workspaceDir:root,candidatePath:root+'/.deck-build/candidate.pptx',finalPath:root+'/reports/presentations/Stories_Recommendations_MSFEA.pptx',pythonExecutable:'/Users/johnkofdarelli/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',integrityValidatorPath:'/Users/johnkofdarelli/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:'/Users/johnkofdarelli/.codex/plugins/cache/openai-primary-runtime/presentations/26.1015.12040/skills/presentations/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','18288000,10287000','--validate-heading-fit'],fontPolicy:{basis:'reference',families:['Helvetica World','Helvetica World Bold'],referencePath:src,referenceSha256:crypto.createHash('sha256').update(await fs.readFile(src)).digest('hex')},verifyArtifactToolImport:true,receiptPath:root+'/.deck-build/validation-v2.json'});
-console.log(JSON.stringify(r));

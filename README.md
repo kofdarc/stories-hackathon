@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/stories-logo.jpg" alt="Stories Coffee logo" width="140"></p>
+
 # Stories Coffee hackathon
 
 Transaction analysis for January–June 2026. The original CSV and hackathon brief are retained at the repository root.

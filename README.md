@@ -27,6 +27,31 @@ Each recommendation includes **what to do, why, a next step, and a Python-genera
 
 Sales alone cannot reveal rent, payroll, inventory on hand, expiry, waste or how customers will respond to a new offer. The app identifies review priorities and small tests, and states what information is missing. Gross profit is sales minus recorded product costs, before operating expenses. No prospective commercial pilot has validated these recommendations.
 
+## Data processing and the math
+
+**CSV → validation → sales summaries → decision rules → Python charts → optional LLM explanation.** Pandas handles the data; Matplotlib draws the charts. The uploaded-data report is calculated before any question is sent to a language model.
+
+We check the required columns, dates, numeric values, positive whole-number quantities, discounts between 0 and 1, and consistent order details. We also reconcile each line: `revenue = quantity × unit price × (1 − discount)` and `gross profit = revenue − quantity × unit cost`, allowing approximately half a cent for rounding. Invalid files are rejected. Extra columns are reported as unused; duplicate-looking rows are flagged and retained because they may be legitimate purchases.
+
+We derive hour, weekday and other time fields, and group item lines into **baskets by transaction ID** so an order containing three products counts as one order. Recent calculations use the latest **56 calendar days**, or the available period if shorter. Daily averages include dates with no recorded sales; the CSV cannot distinguish missing records from actual closures.
+
+| Decision | Calculation in the current app |
+| --- | --- |
+| Hours | Sum recent gross profit by branch and hour, then divide by calendar days. Compare each branch’s first and last observed sales hours and flag the weaker edge. Shortening hours only helps when **avoidable operating costs saved exceed gross profit lost**, adjusted for customers returning later. |
+| Branch review | Compare full-period gross profit, **gross profit ÷ calendar days**, and **gross profit ÷ revenue**. The lowest-gross-profit branch is a review priority; closure needs operating costs and customer-transfer estimates. |
+| Restocking | Calculate daily units per branch/item, including zero-sale dates. Show the three fastest sellers per branch, their mean, and the **25th–75th percentile** range. These are preparation guides; stock and supplier lead times are still needed for order quantities. |
+| Waste | Identify fresh-food candidates from category names and rank their average daily sales from lowest upward. Actual discarded quantities and expiry times are needed to measure waste. |
+| Prices | Let `G` be recent gross profit and `R` revenue. For a **5% increase**, maximum proportional volume loss is `1 − G / (G + 0.05R)`. For a **5% decrease**, extra volume required is `G / (G − 0.05R) − 1`, when margins permit. Both assume unchanged mix, discounts and unit costs. |
+| Combos | Count distinct two-product pairs within baskets by branch and morning/afternoon/evening window. Split dates roughly **70% earlier / 30% later**; require at least **5 earlier and 3 later** pair baskets. Rank by the smaller of those counts, breaking ties by their total. Repetition supports a pilot, not proof that a discount causes extra sales. |
+
+## Where ML fits
+
+**The current recommendation engine uses descriptive statistics and explicit business rules.** It does not train a demand forecast, price-elasticity model or inventory optimizer on an upload. Combo analysis is co-purchase counting with a later-period recurrence check, rather than a trained recommender or causal validation.
+
+The ML component is the **pretrained Gemini language model**, with optional DeepSeek fallback, used for natural-language follow-ups as described below. Its weights are not trained or fine-tuned on the uploaded CSV. Python supplies calculated report facts; the model helps interpret questions and explain them simply.
+
+The original Stories findings at the bottom also reference earlier forecasting checks and **Monte Carlo simulations**. Monte Carlo repeatedly evaluates assumed customer responses and savings to show a range of possible outcomes; it does not learn those responses from sales. Those historical experiments are separate from the current upload-to-report calculations and are not rerun for every CSV.
+
 ## Our NLP approach
 
 The language assistant helps business stakeholders understand the calculated report:

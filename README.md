@@ -4,7 +4,7 @@
 
 **Upload a CSV. Get six clear recommendations, charts and answers.**
 
-**Live app: Render production URL pending your deployment.**
+**Live app: [Open Stories Recommendations](https://stories-decision-room.onrender.com/)**
 
 </div>
 
@@ -87,9 +87,9 @@ DEEPSEEK_API_KEY=your_optional_backup_key
 
 `GEMINI_MODEL` and `DEEPSEEK_MODEL` are optional. Gemini uses a model discovered from the account; DeepSeek defaults to `deepseek-flash`. A Gemini key cannot authenticate to DeepSeek. Without provider keys, the calculated recommendations and charts still work.
 
-The Gemini key has been stored as the repository's encrypted `GEMINI_API_KEY` Actions secret. **GitHub Actions secrets do not automatically become Render environment variables.** Set the key in Render's server environment as well. No credential is committed or embedded in the browser.
+The Gemini key has been stored as the repository's encrypted `GEMINI_API_KEY` Actions secret. **GitHub Actions secrets do not automatically become Render environment variables.** The Gemini key is also configured in the Render app’s server environment. No credential is committed or embedded in the browser.
 
-For your Render setup, the build command is `pip install -r requirements.txt` and the start command is `python -m decision_room.server`. The app reads `PORT`, binds publicly when `RENDER` is set, and recognizes `RENDER_EXTERNAL_URL`. Replace the production-link line at the top with your actual Render URL after deploying. No deployment was performed as part of this submission cleanup.
+For your Render setup, the build command is `pip install -r requirements.txt` and the start command is `python -m decision_room.server`. The app reads `PORT`, binds publicly when `RENDER` is set, and recognizes `RENDER_EXTERNAL_URL`. The production app is linked at the top of this README.
 
 ## Verify
 

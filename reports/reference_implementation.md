@@ -1,0 +1,11 @@
+# Reference inspection and reuse boundary
+
+Cloned https://github.com/atangsabel13/coffee-shop-analytics at commit `2b044959782783c2ab542657a84d6e45c359dc4f`.
+
+The complete tree contains README.md, two PNG screenshots and Coffee Shop Analytics.xlsx. **The purported workbook is a two-byte CRLF text file**, confirmed by Git's blob size and a ZIP parsing failure. It contains no available worksheets, formulas, PivotTables, charts or slicer objects. No application source or license file is present. We cannot inspect or reuse unavailable Excel implementation. The screenshot's chart-series formula references `'Pivot Tables'!$B$26` and categories/values in rows 27–42, but does not expose underlying revenue/date formulas.
+
+Visually inspected both PNGs. The Dashboard has a brown title band, a left Store Location slicer and a two-by-two grid: monthly revenue line (upper left), weekday transaction bars (upper right), hourly transaction bars (lower left), horizontal category bars (lower right). The Pivot Tables screenshot shows monthly revenue at A4:B11 and weekday counts at A15:B23, with chart objects to the right. The README describes five summary tables and three sheets: Transactions, Pivot Tables, Dashboard. Actual native objects and slicer wiring cannot be verified.
+
+Stories reconstruction: the Sales & Transactions page follows the visible four-chart layout, brown accent and synchronized branch filter. Navigation adds the six requested business pages. Pandas groups replace documented pivot summaries. `nunique(transaction)` replaces row counts because Stories rows are basket line items. Revenue uses supplied discounted line revenue; GP uses supplied line GP. Category order counts overlap across categories. Date, category and order-type controls extend the reference's location filter.
+
+Credit: Abel Atangs / atangsabel13, Coffee Shop Sales Dashboard — Excel. Reused conceptual layout, chart topics and three-layer source/summary/dashboard organization only. No upstream images, data, code or workbook objects are incorporated into the delivered application. All Stories analysis, visualizations, scenarios and recommendations are original implementation. The local clone is excluded from version control; preserve upstream ownership and seek permission before redistributing its assets.

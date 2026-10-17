@@ -1,0 +1,82 @@
+feature,group,grain,description
+hour,Clock,hour,Clock hour of the basket
+weekday,Clock,day,Day of week (0 = Monday)
+weekend,Clock,day,Saturday or Sunday
+daypart,Clock,hour,Morning / Lunch / Afternoon / Evening / Late evening
+day_of_month,Clock,day,Day of the month
+week_of_month,Clock,day,Week of the month (1–5)
+month_start,Clock,day,First 6 days of the month
+month_end,Clock,day,Last 6 days of the month
+payday_window,Clock,day,Last 3 + first 3 days of the month (assumed payday)
+dst,Clock,day,Daylight-saving time in force (from 29 Mar)
+temp_mean,Daily weather,day,"Mean temperature, °C"
+temp_max,Daily weather,day,"Maximum temperature, °C"
+temp_min,Daily weather,day,"Minimum temperature, °C"
+temp_range,Daily weather,day,"Max − min temperature, °C"
+feels_like,Daily weather,day,"Mean apparent temperature, °C"
+temp_anomaly,Daily weather,day,"Temperature vs surrounding 15 days, °C"
+temp_change_vs_yesterday,Daily weather,day,"Change in mean temperature since yesterday, °C"
+rain_mm,Daily weather,day,"Rain, mm"
+rain_hours,Daily weather,day,Hours with rain
+rain_yesterday_mm,Daily weather,day,"Yesterday's rain, mm"
+rain_last_3d_mm,Daily weather,day,"Rain over the last 3 days, mm"
+dry_streak_days,Daily weather,day,Days since ≥1 mm rain
+rainy,Daily weather,day,Rain ≥1 mm
+heavy_rain,Daily weather,day,Rain ≥10 mm
+hot_day,Daily weather,day,Max temperature ≥30 °C
+windy,Daily weather,day,Max wind ≥40 km/h
+wind_max,Daily weather,day,"Max wind, km/h"
+sunshine_hours,Daily weather,day,Sunshine hours
+daylight_hours,Daily weather,day,Sunrise-to-sunset hours
+weather,Daily weather,day,WMO weather type
+temp_band,Daily weather,day,Temperature band
+dust_max,Air quality,day,"Daily max dust, µg/m³"
+pm10_mean,Air quality,day,"Daily mean PM10, µg/m³"
+aqi_max,Air quality,day,Daily max US AQI
+uv_max,Air quality,day,Daily max UV index
+dust_event,Air quality,day,Dust ≥50 µg/m³ in some hour
+poor_air,Air quality,day,AQI >100 in some hour
+hour_temp,Hourly weather,hour,"Temperature at that hour, °C"
+hour_feels_like,Hourly weather,hour,"Apparent temperature at that hour, °C"
+hour_rain_mm,Hourly weather,hour,"Rain that hour, mm"
+raining_now,Hourly weather,hour,Any rain that hour
+hour_humidity,Hourly weather,hour,"Relative humidity, %"
+hour_dew_point,Hourly weather,hour,"Dew point, °C"
+hour_cloud_cover,Hourly weather,hour,"Cloud cover, %"
+hour_wind,Hourly weather,hour,"Wind, km/h"
+hour_daylight,Hourly weather,hour,Daylight that hour
+hour_weather,Hourly weather,hour,WMO weather type that hour
+hour_pm10,Hourly weather,hour,"PM10 that hour, µg/m³"
+hour_pm2_5,Hourly weather,hour,"PM2.5 that hour, µg/m³"
+hour_dust,Hourly weather,hour,"Dust that hour, µg/m³"
+hour_aqi,Hourly weather,hour,US AQI that hour
+hour_uv,Hourly weather,hour,UV index that hour
+dusty_now,Hourly weather,hour,Dust ≥50 µg/m³ that hour
+after_sunset,Hourly weather,hour,After sunset
+minutes_from_sunset,Hourly weather,hour,Minutes after (+) or before (−) sunset
+holiday,Calendar,day,Lebanese public holiday
+holiday_eve,Calendar,day,Day before a public holiday
+days_to_next_holiday,Calendar,day,Days until the next public holiday
+days_since_last_holiday,Calendar,day,Days since the last public holiday
+bridge_day,Calendar,day,Workday between two days off
+long_weekend,Calendar,day,Part of ≥3 consecutive days off including a holiday
+school_break,Calendar,day,Estimated school break
+ramadan,Calendar,day,Ramadan (estimated 18 Feb–19 Mar)
+iftar_window,Calendar,hour,After sunset during Ramadan
+commercial_event,Calendar,day,Valentine's Day or Mother's Day
+campaign_window,Calendar,day,"15% promotion window (12–19 Mar, 12–19 May; inferred)"
+basket_lines,Basket,basket,Item lines in the basket
+basket_units,Basket,basket,Units in the basket
+basket_revenue,Basket,basket,"Basket revenue, USD"
+basket_categories,Basket,basket,Distinct categories in the basket
+basket_has_food,Basket,basket,Basket contains food
+basket_has_drink,Basket,basket,Basket contains a drink
+basket_food_and_drink,Basket,basket,Basket contains food and a drink
+basket_discounted,Basket,basket,Basket contains a discounted line
+branch_hour_baskets,Basket,basket,Baskets at the branch in the same hour (load)
+branch_day_baskets,Basket,basket,Baskets at the branch that day (load)
+customer_identified,Customer,customer,Basket has a customer ID
+customer_visit_number,Customer,customer,Customer's visit number (since 1 Jan)
+days_since_prev_visit,Customer,customer,Days since the customer’s previous visit
+customer_new_branch,Customer,customer,First visit by this customer to this branch
+customer_repeat,Customer,customer,Customer seen before

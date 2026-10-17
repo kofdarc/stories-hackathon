@@ -1,0 +1,73 @@
+target,model,week,wape
+baskets,Clock template (log-linear),1,0.09697290415901672
+baskets,Clock template (log-linear),2,0.09884614174369556
+baskets,Clock template (log-linear),3,0.09199321692985145
+baskets,Clock template (log-linear),4,0.09936912753324115
+baskets,Ensemble (mean of models),1,0.09678467260762363
+baskets,Ensemble (mean of models),2,0.09526673008826664
+baskets,Ensemble (mean of models),3,0.09051597054176731
+baskets,Ensemble (mean of models),4,0.09532722582550013
+baskets,Gradient-boosted hybrid,1,0.10040873286883346
+baskets,Gradient-boosted hybrid,2,0.09538964686867786
+baskets,Gradient-boosted hybrid,3,0.09679195412375775
+baskets,Gradient-boosted hybrid,4,0.09967595206150184
+baskets,Linear trend × weekday,1,0.09651346813113541
+baskets,Linear trend × weekday,2,0.0966530692930469
+baskets,Linear trend × weekday,3,0.08881672492744928
+baskets,Linear trend × weekday,4,0.09461379184988931
+baskets,Poisson GLM (regularized),1,0.09866894213967727
+baskets,Poisson GLM (regularized),2,0.09778828618904431
+baskets,Poisson GLM (regularized),3,0.09110548851066858
+baskets,Poisson GLM (regularized),4,0.09699680983793205
+baskets,Seasonal naive (last 4 weeks),1,0.11203838931775506
+baskets,Seasonal naive (last 4 weeks),2,0.10743243243243243
+baskets,Seasonal naive (last 4 weeks),3,0.1134020618556701
+baskets,Seasonal naive (last 4 weeks),4,0.11986370014030868
+gp,Clock template (log-linear),1,0.11423479390520008
+gp,Clock template (log-linear),2,0.11786440268027848
+gp,Clock template (log-linear),3,0.11108692404795797
+gp,Clock template (log-linear),4,0.11720488491433605
+gp,Ensemble (mean of models),1,0.11703186599821655
+gp,Ensemble (mean of models),2,0.11600575215322918
+gp,Ensemble (mean of models),3,0.11178627210465607
+gp,Ensemble (mean of models),4,0.11373574301611943
+gp,Gradient-boosted hybrid,1,0.12400675591242731
+gp,Gradient-boosted hybrid,2,0.11859858984323814
+gp,Gradient-boosted hybrid,3,0.11726114688721585
+gp,Gradient-boosted hybrid,4,0.11806195675152473
+gp,Linear trend × weekday,1,0.1146030739805726
+gp,Linear trend × weekday,2,0.11570694491018237
+gp,Linear trend × weekday,3,0.10996590528831655
+gp,Linear trend × weekday,4,0.11281787885478094
+gp,Poisson GLM (regularized),1,0.11718070182285373
+gp,Poisson GLM (regularized),2,0.11678552761567326
+gp,Poisson GLM (regularized),3,0.10998135628317461
+gp,Poisson GLM (regularized),4,0.11445695313799858
+gp,Seasonal naive (last 4 weeks),1,0.13268647814355444
+gp,Seasonal naive (last 4 weeks),2,0.1298574896860967
+gp,Seasonal naive (last 4 weeks),3,0.13194016064887465
+gp,Seasonal naive (last 4 weeks),4,0.1354966031782134
+revenue,Clock template (log-linear),1,0.11244690706768165
+revenue,Clock template (log-linear),2,0.11838274858305362
+revenue,Clock template (log-linear),3,0.11057633121260052
+revenue,Clock template (log-linear),4,0.11666274857229302
+revenue,Ensemble (mean of models),1,0.11418565943960055
+revenue,Ensemble (mean of models),2,0.11564573622739306
+revenue,Ensemble (mean of models),3,0.11014911682901204
+revenue,Ensemble (mean of models),4,0.11375069348818968
+revenue,Gradient-boosted hybrid,1,0.12182345672157723
+revenue,Gradient-boosted hybrid,2,0.11792366540626657
+revenue,Gradient-boosted hybrid,3,0.11734573717684747
+revenue,Gradient-boosted hybrid,4,0.11768655925947523
+revenue,Linear trend × weekday,1,0.11183573967175688
+revenue,Linear trend × weekday,2,0.11591282360304432
+revenue,Linear trend × weekday,3,0.10857079354116093
+revenue,Linear trend × weekday,4,0.11278921234641055
+revenue,Poisson GLM (regularized),1,0.1135332722529978
+revenue,Poisson GLM (regularized),2,0.11647717128553603
+revenue,Poisson GLM (regularized),3,0.10840937253058411
+revenue,Poisson GLM (regularized),4,0.11386327667474597
+revenue,Seasonal naive (last 4 weeks),1,0.12874268674085387
+revenue,Seasonal naive (last 4 weeks),2,0.12847411506710907
+revenue,Seasonal naive (last 4 weeks),3,0.1332725535897297
+revenue,Seasonal naive (last 4 weeks),4,0.1356435795287223

@@ -1,0 +1,19 @@
+date,event,kind,certainty
+2026-01-01,New Year's Day,public_holiday,fixed
+2026-01-06,Armenian Orthodox Christmas,public_holiday,fixed
+2026-02-09,Saint Maroun's Day,public_holiday,fixed
+2026-03-20,Eid al-Fitr,public_holiday,lunar_estimate
+2026-03-21,Eid al-Fitr (day 2),public_holiday,lunar_estimate
+2026-03-25,Feast of the Annunciation,public_holiday,fixed
+2026-04-03,Good Friday (Western),public_holiday,computed
+2026-04-05,Easter Sunday (Western),public_holiday,computed
+2026-04-10,Good Friday (Orthodox),public_holiday,computed
+2026-04-12,Easter Sunday (Orthodox),public_holiday,computed
+2026-05-01,Labour Day,public_holiday,fixed
+2026-05-25,Resistance and Liberation Day,public_holiday,fixed
+2026-05-27,Eid al-Adha,public_holiday,lunar_estimate
+2026-05-28,Eid al-Adha (day 2),public_holiday,lunar_estimate
+2026-06-16,Islamic New Year,public_holiday,lunar_estimate
+2026-06-25,Ashura,public_holiday,lunar_estimate
+2026-02-14,Valentine's Day,commercial,fixed
+2026-03-21,Mother's Day (Lebanon),commercial,fixed

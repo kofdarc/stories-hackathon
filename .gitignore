@@ -4,3 +4,13 @@ __pycache__/
 *.sqlite-wal
 *.sqlite-shm
 .stories-*.sqlite
+.venv/
+reference/
+stories_transactions.csv
+*.sqlite
+database/stories.sql
+EECE490 Stories Coffee Hackathon.docx
+.DS_Store
+dist/
+stories_transactions_enriched.csv
+~$*

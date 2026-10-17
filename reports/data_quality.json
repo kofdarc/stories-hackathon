@@ -1,0 +1,62 @@
+{
+  "source_sha256": "f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1",
+  "rows": 51177,
+  "columns": 14,
+  "transactions": 33887,
+  "products": 45,
+  "customers": 3494,
+  "branches": [
+    "Garden",
+    "Harbour",
+    "Uptown"
+  ],
+  "first_date": "2026-01-01",
+  "last_date": "2026-06-30",
+  "missing_by_column": {
+    "Transaction ID": 0,
+    "Date": 0,
+    "Time": 0,
+    "Branch": 0,
+    "Customer ID": 18691,
+    "Order Type": 0,
+    "Product": 0,
+    "Category": 0,
+    "Quantity": 0,
+    "Unit Price (USD)": 0,
+    "Discount Rate": 0,
+    "Unit Cost (USD)": 0,
+    "Line Revenue (USD)": 0,
+    "Line Gross Profit (USD)": 0
+  },
+  "missing_customer_line_share": 0.36522265861617526,
+  "missing_customer_basket_share": 0.36453507244666095,
+  "missing_required": 0,
+  "missing_calendar_days": 0,
+  "exact_duplicate_excess": 132,
+  "duplicate_excess_revenue": 741.4299999999998,
+  "revenue_exceptions_half_cent": 0,
+  "gp_exceptions_half_cent": 0,
+  "maximum_revenue_error": 0.005000000000000782,
+  "maximum_gp_error": 2.6645352591003757e-15,
+  "nonpositive_quantity": 0,
+  "invalid_discount": 0,
+  "invalid_money": 0,
+  "nonfinite_financial_rows": 0,
+  "metadata_conflicts": 0,
+  "discount_rates": [
+    0.0,
+    0.1,
+    0.15
+  ],
+  "quantity_distribution": {
+    "1": 48267,
+    "2": 2910
+  },
+  "revenue": 305925.14,
+  "gp": 179430.49,
+  "runtime": {
+    "python": "3.14.2",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4"
+  }
+}

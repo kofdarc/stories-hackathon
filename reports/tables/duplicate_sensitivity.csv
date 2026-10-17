@@ -1,0 +1,3 @@
+policy,lines,baskets,revenue,gp,garden_matched_gap
+Retain all rows (baseline),51177,33887,305925.14,179430.49,15923.470000000001
+Remove excess exact rows (sensitivity only),51045,33887,305183.71,178994.28000000003,15887.5

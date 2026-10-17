@@ -1,0 +1,21 @@
+module,input,distribution,basis
+Opening hours,Staff on the early shift,1 (40%) or 2 (60%),Assumption
+Opening hours,Loaded wage per staff-hour,Triangular $1.80 / $2.60 / $3.50,Minimum wage 28M LBP ≈ $312/mo; barista ≈ $450 + charges
+Opening hours,Share of closed staff-hours actually removed,Uniform 50–100%,Assumption (bake-off and receiving may keep someone in)
+Opening hours,Electricity per open hour,Triangular 1.5 / 3 / 5 kWh,"Espresso standby 0.33 kWh/h + brewing, lights, HVAC"
+Opening hours,Generator share of marginal kWh,Uniform 60–100%,EDL supplied 4–9 h/day in 2026
+Opening hours,"Generator tariff, next 6 months",Uniform $0.45–$0.59/kWh,Ministry tariffs Mar–Sep 2026
+Opening hours,Customers who come back later,"Beta(2,3), mean 40%",Assumption
+Opening hours,Demand level,Uniform between H1 average and June run-rate,Chain 1: growth may not be real
+Opening hours,Sampling noise in hourly GP,Bootstrap of the 181 trading days,Data
+Costs and prices,Coffee cost drift since cost master,Triangular −4% / +1% / +7%,"Arabica −16% × bean share, plus dairy and packaging"
+Costs and prices,Other food cost drift,Triangular 0% / +7% / +18%,Food CPI +15% → +18% y/y
+Costs and prices,Matcha powder per drink,Uniform 2–4 g,Assumption
+Costs and prices,Matcha landed price rise,Triangular +$15 / +$60 / +$120 per kg,Tencha auctions +22% to +80% y/y
+Costs and prices,Category price elasticity,Triangular −1.5 / −0.8 / −0.25,Food away from home −0.7 to −0.8; coffee −0.26
+Costs and prices,Coffee elasticity multiplier,Uniform 1.0–1.5×,Coffee is the most price-compared item (assumption)
+Matcha supply,Chance of a supply disruption in 6 months,Uniform 5–30%,Japanese suppliers rationing since 2025
+Matcha supply,Disruption length,Uniform 7–28 days,Assumption
+Matcha supply,Matcha buyers who switch drink,Uniform 30–80%,Assumption
+Price endings,Left-digit bias θ,"Beta(0.66, 2.09): mean 0.24, IQR 0.06–0.37",Strulov-Shlain (2023) product estimates
+Price endings,Item elasticity multiplier,Uniform 1.0–2.0× category elasticity,Items substitute within the menu

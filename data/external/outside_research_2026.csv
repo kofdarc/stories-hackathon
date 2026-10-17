@@ -1,0 +1,45 @@
+key,period,value,unit,fact,source
+war_start,2026-03-02,,,"Hezbollah-Israel war resumes; Beirut struck 3-4 Mar; southern-suburb evacuation 5 Mar; Ramlet al-Baida seafront strike 12 Mar; central Beirut strikes 18-19 Mar; at least 92 killed in Beirut 8 Apr; truce 16 Apr",https://en.wikipedia.org/wiki/Timeline_of_the_2026_Lebanon_war
+displaced,2026,1200000,people,"People displaced by the 2 March escalation",https://www.worldbank.org/en/news/press-release/2026/08/21/renewed-conflict-derails-lebanon-s-fragile-economic-recovery
+gdp_2026,2026,-6.4,pct,"World Bank projected 2026 real GDP change (2025: +4.2%)",https://www.worldbank.org/en/news/press-release/2026/08/21/renewed-conflict-derails-lebanon-s-fragile-economic-recovery
+sector_jan_feb,2026-01..02,25,pct,"Restaurant/cafe sector growth in Jan-Feb 2026 per syndicate (Tony Ramy)",https://leadersclub.com.lb/reports/War-Impact-&-Business-Forecast.pdf
+sector_after_war,2026-03..06,-85,pct,"Restaurant sector decline over the four months after 2 March per syndicate (Tony Ramy)",https://leadersclub.com.lb/reports/War-Impact-&-Business-Forecast.pdf
+hormuz,2026-02-28,,,"Strait of Hormuz effectively closed from 28 Feb after US-Israeli strikes on Iran",https://en.wikipedia.org/wiki/2026%E2%80%932028_world_oil_market_chronology
+brent_march,2026-03,103,USD/bbl,"Brent averaged ~$103 in March; +65% in March, largest monthly rise on record; $126 intraday 28 Apr",https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-oil-prices-surging
+gen_tariff,2026-01,28355,LBP/kWh,"Ministry of Energy private-generator tariff (metered, below 700 m)",https://smartioleb.com/generator-tariff-lebanon/
+gen_tariff,2026-02,30244,LBP/kWh,"Ministry of Energy private-generator tariff (metered, below 700 m)",https://smartioleb.com/generator-tariff-lebanon/
+gen_tariff,2026-03,40580,LBP/kWh,"Ministry of Energy private-generator tariff (metered, below 700 m)",https://today.lorientlejour.com/article/1505310/generator-rates-in-lebanon-have-jumped-63-in-two-months.html
+gen_tariff,2026-04,49395,LBP/kWh,"Ministry of Energy private-generator tariff (metered, below 700 m); >55 US cents",https://today.lorientlejour.com/article/1505310/generator-rates-in-lebanon-have-jumped-63-in-two-months.html
+gen_tariff,2026-05,46289,LBP/kWh,"Ministry of Energy private-generator tariff (metered, below 700 m)",https://smartioleb.com/generator-tariff-lebanon/
+gen_tariff,2026-06,41973,LBP/kWh,"Ministry of Energy private-generator tariff (metered, below 700 m)",https://smartioleb.com/generator-tariff-lebanon/
+gen_tariff,2026-09,52840,LBP/kWh,"Ministry of Energy private-generator tariff; highest reported",https://smartioleb.com/generator-tariff-lebanon/
+diesel_20l,2026-02,1398957,LBP,"Diesel price per 20 L used for the tariff",https://smartioleb.com/generator-tariff-lebanon/
+diesel_20l,2026-04,2480683,LBP,"Diesel price per 20 L used for the tariff (+77% in two months)",https://today.lorientlejour.com/article/1505310/generator-rates-in-lebanon-have-jumped-63-in-two-months.html
+edl_hours,2026-02,7-9,hours/day,"EDL state grid supply in February; ~4 hours/day by mid-July",https://en.libnanews.com/l-electricity-from-lebanon-hit-by-oil-shock/
+lbp_usd,2026,89500,LBP/USD,"Exchange rate used for conversion (market ~89,700 per L'Orient Today; stable)",https://today.lorientlejour.com/article/1505310/generator-rates-in-lebanon-have-jumped-63-in-two-months.html
+espresso_standby,,0.33,kWh/hour,"2-group commercial espresso machine standby: 7.89 kWh per 24 h (manufacturer-published IMQ test)",https://www.dallacorte.com/magazine-energy-saving-is-on-our-priority-list-n-340.html
+min_wage,2025-08,28000000,LBP/month,"National minimum wage (~$312/month), still applicable in 2026",https://wageindicator.org/salary/minimum-wage/lebanon
+cpi_headline,2026-01,10.91,pct yoy,"Headline CPI (CAS via Credit Libanais)",https://economics.creditlibanais.com/Article/213147
+cpi_headline,2026-03,17.3,pct yoy,"Headline CPI",https://tradingeconomics.com/lebanon/inflation-cpi
+cpi_headline,2026-04,20.02,pct yoy,"Headline CPI; +3.04% month-on-month",https://economics.creditlibanais.com/Article/213277
+cpi_headline,2026-05,19.04,pct yoy,"Headline CPI",https://economics.creditlibanais.com/Article/213331
+cpi_restaurants,2026-01,7.21,pct yoy,"Restaurants & hotels CPI",https://economics.creditlibanais.com/Article/213147
+cpi_restaurants,2026-04,15.98,pct yoy,"Restaurants & hotels CPI",https://economics.creditlibanais.com/Article/213277
+cpi_restaurants,2026-05,15.60,pct yoy,"Restaurants & hotels CPI",https://economics.creditlibanais.com/Article/213331
+cpi_food,2026-01,15.14,pct yoy,"Food & non-alcoholic beverages CPI",https://economics.creditlibanais.com/Article/213147
+cpi_food,2026-04,17.97,pct yoy,"Food & non-alcoholic beverages CPI",https://economics.creditlibanais.com/Article/213277
+cpi_energy,2026-01,3.66,pct yoy,"Water, electricity, gas & other fuels CPI",https://economics.creditlibanais.com/Article/213147
+cpi_energy,2026-04,41.39,pct yoy,"Water, electricity, gas & other fuels CPI",https://economics.creditlibanais.com/Article/213277
+arabica,2026-01-16..06-16,-16,pct,"ICE New York arabica $7,300/t (16 Jan) to $6,110/t (16 Jun); lowest since Nov 2024 in June on record Brazil crop expectations",https://cropgpt.ai/coffee-futures-slide-on-stronger-2026-27-supply
+cocoa,2026-01..04,-37,pct,"Cocoa monthly average ~$4,995/t (Jan) to ~$3,158/t (Apr), rebounding to ~$4,400-5,000 by June (sources differ)",https://fred.stlouisfed.org/series/PCOCOUSDM
+tencha_kagoshima,2026-05-14,19095,JPY/kg,"Kagoshima tencha auction average, +8,480 JPY (+80%) year on year",https://ooika.squarespace.com/learn/japanese-tea-prices-2026
+tencha_uji,2026-04,22,pct,"Uji tencha auction opening average up ~22% to ~20,879 JPY/kg (vendor tracker)",https://onewithtea.com/pages/japanese-matcha-price-tracker
+matcha_rationing,2025-08,,,"Ippodo limits matcha per customer and raises all prices (Sep 2025); Marukyu Koyamaen restricts all matcha products",https://global.ippodo-tea.co.jp/blogs/news/20250801
+stories_footprint,2025,22,branches,"Stories Coffee: founded 2021 in Beirut; 22 locations in 2025 (Ain El Mreisseh, Ramlet El Bayda, Bir Hassan, Verdun, Bliss, Kouraytem, Khalde, Saida, Antelias, Dbayeh, Rabieh, Batroun...)",https://storiescoffee.com/
+cash_economy,2022,45.7,pct of GDP,"Dollarized cash economy (World Bank Lebanon Economic Monitor, May 2023)",https://openknowledge.worldbank.org/handle/10986/40027
+left_digit,2023,,,"Shoppers react to a 1-cent rise from a 99-ending price as if it were a >20-cent rise; retailers forgo 1-4% of gross profit by under-using price endings",https://www.restud.com/more-than-a-pennys-worth-left-digit-bias-and-firm-pricing/
+displaced_commerce_2024,2024-10,,,"2024 precedent: Hamra cafes and restaurants 'overflowing' with displaced people; local shop sales +70% in first two weeks",https://www.arabnews.pk/middle-east/massive-displacement-from-israel-hezbollah-war-transforms-beiruts-famed-commercial-street-2576679
+nightlife_died,2026-03..04,,,"Mohamed Choucair (Economic Organizations): March-April 'truly lamentable across all sectors'; 'the nightlife sector completely died'",https://leadersclub.com.lb/reports/War-Impact-&-Business-Forecast.pdf
+services_h1,2026-H1,60,pct of firms,"Services firms with lower H1-2026 revenue than H1-2025 (average decline 54% among them); 14% increased (InfoPro survey of Beirut and Mount Lebanon firms outside war-torn areas)",https://leadersclub.com.lb/reports/War-Impact-&-Business-Forecast.pdf
+firms_raised_prices,2026-H1,60,pct of firms,"Firms that increased prices since the war began; 38% reduced working hours or days; 19% invested in generators or fuel storage",https://leadersclub.com.lb/reports/War-Impact-&-Business-Forecast.pdf
+hotel_occupancy,2026-H1,10-15,pct,"Hotel occupancy (Pierre Achkar, Federation of Tourism Syndicates); 50% of North American and Australian diaspora cancelled bookings",https://leadersclub.com.lb/reports/War-Impact-&-Business-Forecast.pdf

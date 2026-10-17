@@ -2,6 +2,8 @@
 
 Transaction analysis for January–June 2026. The original CSV and hackathon brief are retained at the repository root.
 
+**Live app:** https://stories-hackathon.onrender.com/
+
 ## Query the database
 
 The ready-to-use **SQLite** database is [`database/stories.sqlite`](database/stories.sqlite). Download it or clone this repository, then open it in any SQLite client (for example, a desktop database browser or the `sqlite3` command line).

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Stories · Business Recommendations</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body>
+<header><a class="brand" href="/">stories<span>BUSINESS RECOMMENDATIONS</span></a><button id="download" class="secondary" hidden>Download report ↓</button></header>
+<main>
+<section id="upload-section" class="intro"><p class="eyebrow">YOUR SALES. YOUR NEXT MOVE.</p><h1>Upload your sales.<br>See what to do next.</h1><p class="lead">Opening hours, branch decisions, restocking, waste, prices and combos.<br>Explained simply, using your data.</p>
+<div class="upload-box" id="dropzone"><span class="upload-icon" aria-hidden="true">↑</span><h2>Drop your sales CSV here</h2><p>or choose a file from your computer</p><label class="primary file-label" for="file-input">Choose CSV <span aria-hidden="true">→</span></label><input type="file" id="file-input" accept=".csv,text/csv" class="sr-only"><small>Up to 40 MB · processed locally</small></div>
+<button class="existing" id="existing" hidden>Use the Stories CSV already on this computer →</button>
+<details class="format"><summary>What should the CSV contain?</summary><p>One row per item sold, including its order, date, time, branch, product, quantity, price, discount, cost and profit. Use the column names in the template.</p><a href="/sales-template.csv" download="sales-template.csv">Download CSV column template ↓</a><p id="column-names" class="micro"></p></details>
+</section>
+<div id="progress" class="progress" hidden role="status"><span class="spinner"></span><div><strong>Reading your sales…</strong><p>Checking the data and preparing your recommendations.</p></div></div>
+<div id="error" class="error" hidden role="alert"></div>
+<section id="report" hidden><div class="report-heading"><div><p class="eyebrow">YOUR NEXT MOVES</p><h1>Here’s what to do next.</h1><p id="report-context"></p></div><button class="text-button" id="change-file">Upload another CSV</button></div><p class="report-note">Each recommendation explains what the data shows, what to try, and what needs checking first.</p><div id="cards"></div>
+<details class="source-details"><summary>About the data and these estimates</summary><ul id="notes"></ul></details>
+<details class="followup" id="followup"><summary>Ask a follow-up question</summary><p class="muted">Want a recommendation explained differently? Ask in your own words.</p><div id="conversation" aria-live="polite"></div><form id="ask-form"><label class="sr-only" for="question">Your question</label><textarea id="question" rows="2" maxlength="4000" placeholder="e.g. Why should we keep Garden open?"></textarea><div class="ask-bottom"><span id="gemini-status"></span><button class="primary" id="ask" type="submit">Ask →</button></div></form></details>
+</section>
+<footer>Sales stay on this computer. Optional follow-up questions share aggregate recommendations with Gemini.</footer>
+</main></body></html>

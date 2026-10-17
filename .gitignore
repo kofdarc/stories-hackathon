@@ -14,3 +14,6 @@ EECE490 Stories Coffee Hackathon.docx
 dist/
 stories_transactions_enriched.csv
 ~$*
+.env
+.env.*
+!.env.example

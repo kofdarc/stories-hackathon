@@ -1,0 +1,68 @@
+{
+  "notebook_schema": "nbformat validation passed",
+  "embedded_engine_sha256": "7a88bb2d5d58807ff40b296859bd5a54f04c1edc5c3c90715ed33af5d0069d14",
+  "source_sha256": "f1672e728c28295b2b802d878fd38a158ba039827b429355e8438ee0463237a1",
+  "source_quality": {
+    "source_rows": 51177,
+    "exact_duplicate_excess": 132,
+    "duplicate_revenue": 741.4299999999998,
+    "duplicate_policy": "retain source rows",
+    "rows_used": 51177,
+    "baskets": 33887,
+    "first_date": "2026-01-01",
+    "last_date": "2026-06-30",
+    "missing_customer_basket_share": 0.36453507244666095,
+    "revenue_exceptions_over_half_cent": 0,
+    "gp_exceptions_over_half_cent": 0,
+    "absent_calendar_days": 0,
+    "order_types": [
+      "Dine-in",
+      "Takeaway"
+    ]
+  },
+  "checks": [
+    "all notebook code cells executed (setup install skipped: preinstalled test dependencies)",
+    "actual ipywidgets constructed; authorization gate; local authorized CSV load",
+    "all three branch controls; live scenario recalculation; basket-loss direction",
+    "combo branch/time exploration; all nine sensitivity curves; report ZIP",
+    "download callback; no transaction/customer IDs in ZIP",
+    "failed load clears stale dashboard; notebook has no saved outputs"
+  ],
+  "figures_rendered": 22,
+  "verification_environment": "Local Python with real ipywidgets; hosted Colab upload/download dialogs not automated",
+  "forecast_scores": [
+    {
+      "split": "test",
+      "model": "mean28",
+      "MAE": 3.0357142857142856,
+      "total_error": 42.5,
+      "total_actual": 78.0,
+      "WAPE": 0.5448717948717948
+    },
+    {
+      "split": "test",
+      "model": "weekday",
+      "MAE": 2.9591836734693877,
+      "total_error": 41.42857142857143,
+      "total_actual": 78.0,
+      "WAPE": 0.5311355311355311
+    },
+    {
+      "split": "validation",
+      "model": "mean28",
+      "MAE": 1.4540816326530612,
+      "total_error": 20.357142857142858,
+      "total_actual": 65.0,
+      "WAPE": 0.3131868131868132
+    },
+    {
+      "split": "validation",
+      "model": "weekday",
+      "MAE": 1.5535714285714286,
+      "total_error": 21.75,
+      "total_actual": 65.0,
+      "WAPE": 0.3346153846153846
+    }
+  ],
+  "calibration_rows": 6097
+}

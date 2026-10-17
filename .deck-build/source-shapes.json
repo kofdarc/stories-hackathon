@@ -1,0 +1,2311 @@
+[
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 108.91989501312337,
+        "top": 158.57595800524936,
+        "width": 710.6899737532808,
+        "height": 166.04986876640422,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1485.6185826771655,
+        "top": 54.53711286089239,
+        "width": 307.3217847769029,
+        "height": 53.462887139107615,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "7",
+      "name": "TextBox 7",
+      "text": "",
+      "position": {
+        "left": 1485.6185826771655,
+        "top": 54.53711286089239,
+        "width": 307.3217847769029,
+        "height": 53.462887139107615,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 13",
+      "text": "October 17, 2026",
+      "position": {
+        "left": 1447.3166404199476,
+        "top": 59.96,
+        "width": 364.6833595800525,
+        "height": 48.04
+      }
+    },
+    {
+      "id": "14",
+      "name": "TextBox 13",
+      "text": "Seven simple moves for Stories",
+      "position": {
+        "left": 108.47989501312337,
+        "top": 412.8,
+        "width": 1488,
+        "height": 220.8
+      }
+    },
+    {
+      "id": "15",
+      "name": "TextBox 14",
+      "text": "Our recommendations, explained simply",
+      "position": {
+        "left": 108.47989501312337,
+        "top": 657.6,
+        "width": 1344,
+        "height": 96
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 108.47989501312337,
+        "top": 897.6,
+        "width": 1152,
+        "height": 48
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 16.333123359580053,
+        "top": 179.27118110236222,
+        "width": 1887.3298687664042,
+        "height": 882.3399475065617,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "4",
+      "name": "TextBox 4",
+      "text": "ⓒ All rights reserved. American University of Beirut 2026.",
+      "position": {
+        "left": 1474.3307086614175,
+        "top": 101.63055118110236,
+        "width": 310.3028871391076,
+        "height": 12.95212598425197
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1256.6815748031497,
+        "top": 88.29585301837271,
+        "width": 531.7598950131234,
+        "height": 2,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "8",
+      "name": "Freeform 8",
+      "text": "",
+      "position": {
+        "left": 1805.3034120734908,
+        "top": 52.65606299212599,
+        "width": 71.23989501312336,
+        "height": 71.23989501312336,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "10",
+      "name": "Freeform 10",
+      "text": "",
+      "position": {
+        "left": 43.46141732283465,
+        "top": 41.18225721784777,
+        "width": 413.71002624671917,
+        "height": 96.65994750656168,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "TextBox 11",
+      "text": "The seven moves at a glance",
+      "position": {
+        "left": 403.9912860892389,
+        "top": 260.9753280839895,
+        "width": 1112.017532808399,
+        "height": 54.72472440944882
+      }
+    },
+    {
+      "id": "12",
+      "name": "TextBox 12",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 1261.5149606299212,
+        "top": 58.21238845144357,
+        "width": 522.0900787401575,
+        "height": 26.280944881889766
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 12",
+      "text": "Each one starts as a small test, so real results decide",
+      "position": {
+        "left": 144,
+        "top": 318.72,
+        "width": 1632,
+        "height": 48
+      }
+    },
+    {
+      "id": "14",
+      "name": "TextBox 13",
+      "text": "Size of the prize, 6 months",
+      "position": {
+        "left": 1468.8,
+        "top": 376.32,
+        "width": 379.2,
+        "height": 33.6
+      }
+    },
+    {
+      "id": "15",
+      "name": "Oval 14",
+      "text": "1",
+      "position": {
+        "left": 72,
+        "top": 424.32,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "Check Garden’s costs  —  it pays ~43% more for the same products",
+      "position": {
+        "left": 158.4,
+        "top": 417.5998950131234,
+        "width": 1305.6000000000001,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "17",
+      "name": "TextBox 16",
+      "text": "$4K–$16K",
+      "position": {
+        "left": 1440,
+        "top": 417.5998950131234,
+        "width": 408,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "18",
+      "name": "Connector 17",
+      "text": "",
+      "position": {
+        "left": 158.4,
+        "top": 495.36,
+        "width": 1689.6000000000001,
+        "height": 0
+      }
+    },
+    {
+      "id": "19",
+      "name": "Oval 18",
+      "text": "2",
+      "position": {
+        "left": 72,
+        "top": 504.96000000000004,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "20",
+      "name": "TextBox 19",
+      "text": "Plan by the clock, not the weather  —  the evening rush is the same every day",
+      "position": {
+        "left": 158.4,
+        "top": 498.24,
+        "width": 1305.6000000000001,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "21",
+      "name": "TextBox 20",
+      "text": "44.6% of profit",
+      "position": {
+        "left": 1440,
+        "top": 498.24,
+        "width": 408,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "22",
+      "name": "Connector 21",
+      "text": "",
+      "position": {
+        "left": 158.4,
+        "top": 576,
+        "width": 1689.6000000000001,
+        "height": 0
+      }
+    },
+    {
+      "id": "23",
+      "name": "Oval 22",
+      "text": "3",
+      "position": {
+        "left": 72,
+        "top": 585.6,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "24",
+      "name": "TextBox 23",
+      "text": "Give discounts when the shop is quiet  —  not when it’s already full",
+      "position": {
+        "left": 158.4,
+        "top": 578.8798950131234,
+        "width": 1305.6000000000001,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "25",
+      "name": "TextBox 24",
+      "text": "same budget",
+      "position": {
+        "left": 1440,
+        "top": 578.8798950131234,
+        "width": 408,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "26",
+      "name": "Connector 25",
+      "text": "",
+      "position": {
+        "left": 158.4,
+        "top": 656.64,
+        "width": 1689.6000000000001,
+        "height": 0
+      }
+    },
+    {
+      "id": "27",
+      "name": "Oval 26",
+      "text": "4",
+      "position": {
+        "left": 72,
+        "top": 666.24,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "28",
+      "name": "TextBox 27",
+      "text": "Ask “want a pastry?” in the evening  —  with no discount attached",
+      "position": {
+        "left": 158.4,
+        "top": 659.5198950131233,
+        "width": 1305.6000000000001,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "29",
+      "name": "TextBox 28",
+      "text": "66% margin",
+      "position": {
+        "left": 1440,
+        "top": 659.5198950131233,
+        "width": 408,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "30",
+      "name": "Connector 29",
+      "text": "",
+      "position": {
+        "left": 158.4,
+        "top": 737.28,
+        "width": 1689.6000000000001,
+        "height": 0
+      }
+    },
+    {
+      "id": "31",
+      "name": "Oval 30",
+      "text": "5",
+      "position": {
+        "left": 72,
+        "top": 746.8798950131234,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "32",
+      "name": "TextBox 31",
+      "text": "Test a 5% price rise at one branch  —  stop if sales drop more than 8%",
+      "position": {
+        "left": 158.4,
+        "top": 740.1598950131233,
+        "width": 1305.6000000000001,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "33",
+      "name": "TextBox 32",
+      "text": "+$7,300",
+      "position": {
+        "left": 1440,
+        "top": 740.1598950131233,
+        "width": 408,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "34",
+      "name": "Connector 33",
+      "text": "",
+      "position": {
+        "left": 158.4,
+        "top": 817.9200000000001,
+        "width": 1689.6000000000001,
+        "height": 0
+      }
+    },
+    {
+      "id": "35",
+      "name": "Oval 34",
+      "text": "6",
+      "position": {
+        "left": 72,
+        "top": 827.5198950131233,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "36",
+      "name": "TextBox 35",
+      "text": "Open later where mornings are empty  —  pays in 3 of 4 simulated futures",
+      "position": {
+        "left": 158.4,
+        "top": 820.7998950131234,
+        "width": 1305.6000000000001,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "37",
+      "name": "TextBox 36",
+      "text": "+$656",
+      "position": {
+        "left": 1440,
+        "top": 820.7998950131234,
+        "width": 408,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "38",
+      "name": "Connector 37",
+      "text": "",
+      "position": {
+        "left": 158.4,
+        "top": 898.5600000000001,
+        "width": 1689.6000000000001,
+        "height": 0
+      }
+    },
+    {
+      "id": "39",
+      "name": "Oval 38",
+      "text": "7",
+      "position": {
+        "left": 72,
+        "top": 908.1600000000001,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "40",
+      "name": "TextBox 39",
+      "text": "Skip what the data doesn’t support  —  late discounts, winter promos, bundles",
+      "position": {
+        "left": 158.4,
+        "top": 901.4398950131234,
+        "width": 1305.6000000000001,
+        "height": 72.96000000000001
+      }
+    },
+    {
+      "id": "41",
+      "name": "TextBox 40",
+      "text": "$0 wasted",
+      "position": {
+        "left": 1440,
+        "top": 901.4398950131234,
+        "width": 408,
+        "height": 72.96000000000001
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 16.333123359580053,
+        "top": 179.27118110236222,
+        "width": 1887.3298687664042,
+        "height": 882.3399475065617,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "4",
+      "name": "TextBox 4",
+      "text": "ⓒ All rights reserved. American University of Beirut 2026.",
+      "position": {
+        "left": 1474.3307086614175,
+        "top": 101.63055118110236,
+        "width": 310.3028871391076,
+        "height": 12.95212598425197
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1256.6815748031497,
+        "top": 88.29585301837271,
+        "width": 531.7598950131234,
+        "height": 2,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "8",
+      "name": "Freeform 8",
+      "text": "",
+      "position": {
+        "left": 1805.3034120734908,
+        "top": 52.65606299212599,
+        "width": 71.23989501312336,
+        "height": 71.23989501312336,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "10",
+      "name": "Freeform 10",
+      "text": "",
+      "position": {
+        "left": 43.46141732283465,
+        "top": 41.18225721784777,
+        "width": 413.71002624671917,
+        "height": 96.65994750656168,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "TextBox 11",
+      "text": "Check Garden’s costs",
+      "position": {
+        "left": 403.9912860892389,
+        "top": 260.9753280839895,
+        "width": 1112.017532808399,
+        "height": 54.72472440944882
+      }
+    },
+    {
+      "id": "12",
+      "name": "TextBox 12",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 1261.5149606299212,
+        "top": 58.21238845144357,
+        "width": 522.0900787401575,
+        "height": 26.280944881889766
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 12",
+      "text": "Same sandwich, two price tags",
+      "position": {
+        "left": 144,
+        "top": 318.72,
+        "width": 1632,
+        "height": 48
+      }
+    },
+    {
+      "id": "14",
+      "name": "Rounded Rectangle 13",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 412.8,
+        "width": 825.6,
+        "height": 350.40000000000003
+      }
+    },
+    {
+      "id": "15",
+      "name": "Oval 14",
+      "text": "1",
+      "position": {
+        "left": 110.4,
+        "top": 446.40000000000003,
+        "width": 76.8,
+        "height": 76.8
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "In plain words",
+      "position": {
+        "left": 211.20000000000002,
+        "top": 453.12,
+        "width": 643.1998950131234,
+        "height": 62.400000000000006
+      }
+    },
+    {
+      "id": "17",
+      "name": "TextBox 16",
+      "text": "Garden and Harbour sell the same 45 products. But Garden’s books say each one costs it about 43% more to make. Find out why before changing anything.",
+      "position": {
+        "left": 110.4,
+        "top": 547.2,
+        "width": 748.8000000000001,
+        "height": 201.6
+      }
+    },
+    {
+      "id": "18",
+      "name": "TextBox 17",
+      "text": "1.43×",
+      "position": {
+        "left": 960,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "19",
+      "name": "TextBox 18",
+      "text": "Garden’s cost vs Harbour’s, on every single product",
+      "position": {
+        "left": 960,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "20",
+      "name": "TextBox 19",
+      "text": "$4K–16K",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "21",
+      "name": "TextBox 20",
+      "text": "extra profit per 6 months if some or all of the gap is real",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "22",
+      "name": "Rounded Rectangle 21",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 796.8000000000001,
+        "width": 1776,
+        "height": 177.6
+      }
+    },
+    {
+      "id": "23",
+      "name": "TextBox 22",
+      "text": "Try this  Trace the top five products (Iced Matcha first) from the till’s cost list to the supplier invoices.\nStop if  invoices show it’s only an accounting rule. Then the real saving is $0.",
+      "position": {
+        "left": 115.2,
+        "top": 814.08,
+        "width": 1689.6000000000001,
+        "height": 144
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 16.333123359580053,
+        "top": 179.27118110236222,
+        "width": 1887.3298687664042,
+        "height": 882.3399475065617,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "4",
+      "name": "TextBox 4",
+      "text": "ⓒ All rights reserved. American University of Beirut 2026.",
+      "position": {
+        "left": 1474.3307086614175,
+        "top": 101.63055118110236,
+        "width": 310.3028871391076,
+        "height": 12.95212598425197
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1256.6815748031497,
+        "top": 88.29585301837271,
+        "width": 531.7598950131234,
+        "height": 2,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "8",
+      "name": "Freeform 8",
+      "text": "",
+      "position": {
+        "left": 1805.3034120734908,
+        "top": 52.65606299212599,
+        "width": 71.23989501312336,
+        "height": 71.23989501312336,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "10",
+      "name": "Freeform 10",
+      "text": "",
+      "position": {
+        "left": 43.46141732283465,
+        "top": 41.18225721784777,
+        "width": 413.71002624671917,
+        "height": 96.65994750656168,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "TextBox 11",
+      "text": "Plan by the clock, not the weather",
+      "position": {
+        "left": 403.9912860892389,
+        "top": 260.9753280839895,
+        "width": 1112.017532808399,
+        "height": 54.72472440944882
+      }
+    },
+    {
+      "id": "12",
+      "name": "TextBox 12",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 1261.5149606299212,
+        "top": 58.21238845144357,
+        "width": 522.0900787401575,
+        "height": 26.280944881889766
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 12",
+      "text": "Stories is busiest at 9 PM, every day, rain or shine",
+      "position": {
+        "left": 144,
+        "top": 318.72,
+        "width": 1632,
+        "height": 48
+      }
+    },
+    {
+      "id": "14",
+      "name": "Rounded Rectangle 13",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 412.8,
+        "width": 825.6,
+        "height": 350.40000000000003
+      }
+    },
+    {
+      "id": "15",
+      "name": "Oval 14",
+      "text": "2",
+      "position": {
+        "left": 110.4,
+        "top": 446.40000000000003,
+        "width": 76.8,
+        "height": 76.8
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "In plain words",
+      "position": {
+        "left": 211.20000000000002,
+        "top": 453.12,
+        "width": 643.1998950131234,
+        "height": 62.400000000000006
+      }
+    },
+    {
+      "id": "17",
+      "name": "TextBox 16",
+      "text": "Rain, heat, dust and holidays barely change sales. The time of day does. So staff, ice, desserts and seats should follow the clock.",
+      "position": {
+        "left": 110.4,
+        "top": 547.2,
+        "width": 748.8000000000001,
+        "height": 201.6
+      }
+    },
+    {
+      "id": "18",
+      "name": "Rectangle 17",
+      "text": "",
+      "position": {
+        "left": 964.8000000000001,
+        "top": 659.2423097112861,
+        "width": 42.63527559055118,
+        "height": 46.357585301837275
+      }
+    },
+    {
+      "id": "19",
+      "name": "TextBox 18",
+      "text": "7 AM",
+      "position": {
+        "left": 926.4000000000001,
+        "top": 713.28,
+        "width": 119.43527559055119,
+        "height": 33.6
+      }
+    },
+    {
+      "id": "20",
+      "name": "Rectangle 19",
+      "text": "",
+      "position": {
+        "left": 1017.0352755905512,
+        "top": 639.0088188976379,
+        "width": 42.63527559055118,
+        "height": 66.59107611548556
+      }
+    },
+    {
+      "id": "21",
+      "name": "Rectangle 20",
+      "text": "",
+      "position": {
+        "left": 1069.2705511811023,
+        "top": 607.4419947506561,
+        "width": 42.63527559055118,
+        "height": 98.1579002624672
+      }
+    },
+    {
+      "id": "22",
+      "name": "Rectangle 21",
+      "text": "",
+      "position": {
+        "left": 1121.5058267716536,
+        "top": 610.8355905511811,
+        "width": 42.63527559055118,
+        "height": 94.76430446194226
+      }
+    },
+    {
+      "id": "23",
+      "name": "Rectangle 22",
+      "text": "",
+      "position": {
+        "left": 1173.7411023622049,
+        "top": 610.6435695538058,
+        "width": 42.63527559055118,
+        "height": 94.95632545931758
+      }
+    },
+    {
+      "id": "24",
+      "name": "Rectangle 23",
+      "text": "",
+      "position": {
+        "left": 1225.976377952756,
+        "top": 607.1859317585302,
+        "width": 42.63527559055118,
+        "height": 98.41396325459318
+      }
+    },
+    {
+      "id": "25",
+      "name": "TextBox 24",
+      "text": "Noon",
+      "position": {
+        "left": 1187.576377952756,
+        "top": 713.28,
+        "width": 119.43527559055119,
+        "height": 33.6
+      }
+    },
+    {
+      "id": "26",
+      "name": "Rectangle 25",
+      "text": "",
+      "position": {
+        "left": 1278.2117585301837,
+        "top": 591.0503937007874,
+        "width": 42.63527559055118,
+        "height": 114.54950131233596
+      }
+    },
+    {
+      "id": "27",
+      "name": "Rectangle 26",
+      "text": "",
+      "position": {
+        "left": 1330.447034120735,
+        "top": 591.6907086614174,
+        "width": 42.63527559055118,
+        "height": 113.90918635170604
+      }
+    },
+    {
+      "id": "28",
+      "name": "Rectangle 27",
+      "text": "",
+      "position": {
+        "left": 1382.682309711286,
+        "top": 591.3064566929135,
+        "width": 42.63527559055118,
+        "height": 114.29343832020997
+      }
+    },
+    {
+      "id": "29",
+      "name": "Rectangle 28",
+      "text": "",
+      "position": {
+        "left": 1434.9175853018373,
+        "top": 586.6323359580052,
+        "width": 42.63527559055118,
+        "height": 118.96755905511812
+      }
+    },
+    {
+      "id": "30",
+      "name": "Rectangle 29",
+      "text": "",
+      "position": {
+        "left": 1487.1528608923886,
+        "top": 589.4496587926509,
+        "width": 42.63527559055118,
+        "height": 116.15023622047245
+      }
+    },
+    {
+      "id": "31",
+      "name": "TextBox 30",
+      "text": "5 PM",
+      "position": {
+        "left": 1448.7528608923885,
+        "top": 713.28,
+        "width": 119.43527559055119,
+        "height": 33.6
+      }
+    },
+    {
+      "id": "32",
+      "name": "Rectangle 31",
+      "text": "",
+      "position": {
+        "left": 1539.3881364829397,
+        "top": 572.161469816273,
+        "width": 42.63527559055118,
+        "height": 133.4384251968504
+      }
+    },
+    {
+      "id": "33",
+      "name": "Rectangle 32",
+      "text": "",
+      "position": {
+        "left": 1591.6235170603675,
+        "top": 540.0184776902887,
+        "width": 42.63527559055118,
+        "height": 165.58141732283465
+      }
+    },
+    {
+      "id": "34",
+      "name": "Rectangle 33",
+      "text": "",
+      "position": {
+        "left": 1643.8587926509188,
+        "top": 501.66456692913385,
+        "width": 42.63527559055118,
+        "height": 203.9353280839895
+      }
+    },
+    {
+      "id": "35",
+      "name": "Rectangle 34",
+      "text": "",
+      "position": {
+        "left": 1696.0940682414698,
+        "top": 432,
+        "width": 42.63527559055118,
+        "height": 273.6
+      }
+    },
+    {
+      "id": "36",
+      "name": "TextBox 35",
+      "text": "9 PM",
+      "position": {
+        "left": 1657.69406824147,
+        "top": 713.28,
+        "width": 119.43527559055119,
+        "height": 33.6
+      }
+    },
+    {
+      "id": "37",
+      "name": "Rectangle 36",
+      "text": "",
+      "position": {
+        "left": 1748.329343832021,
+        "top": 497.18246719160106,
+        "width": 42.63527559055118,
+        "height": 208.41742782152232
+      }
+    },
+    {
+      "id": "38",
+      "name": "Rectangle 37",
+      "text": "",
+      "position": {
+        "left": 1800.5646194225722,
+        "top": 597.9015223097113,
+        "width": 42.63527559055118,
+        "height": 107.69837270341208
+      }
+    },
+    {
+      "id": "39",
+      "name": "TextBox 38",
+      "text": "4,273  orders at 9 PM",
+      "position": {
+        "left": 960,
+        "top": 417.5998950131234,
+        "width": 499.20000000000005,
+        "height": 86.4
+      }
+    },
+    {
+      "id": "40",
+      "name": "TextBox 39",
+      "text": "vs 724 at 7 AM",
+      "position": {
+        "left": 960,
+        "top": 484.8,
+        "width": 480,
+        "height": 38.4
+      }
+    },
+    {
+      "id": "41",
+      "name": "TextBox 40",
+      "text": "Orders per hour, Jan–Jun 2026. Maroon = 7 PM to midnight: 44.6% of all profit.",
+      "position": {
+        "left": 960,
+        "top": 744,
+        "width": 888,
+        "height": 38.4
+      }
+    },
+    {
+      "id": "42",
+      "name": "Rounded Rectangle 41",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 796.8000000000001,
+        "width": 1776,
+        "height": 177.6
+      }
+    },
+    {
+      "id": "43",
+      "name": "TextBox 42",
+      "text": "Try this  Roster staff, ice, cold-brew prep, desserts and seating from our hour-by-weekday template.\nStop if  logged lost orders at the evening peak don’t cover the extra staff cost.",
+      "position": {
+        "left": 115.2,
+        "top": 814.08,
+        "width": 1689.6000000000001,
+        "height": 144
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 16.333123359580053,
+        "top": 179.27118110236222,
+        "width": 1887.3298687664042,
+        "height": 882.3399475065617,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "4",
+      "name": "TextBox 4",
+      "text": "ⓒ All rights reserved. American University of Beirut 2026.",
+      "position": {
+        "left": 1474.3307086614175,
+        "top": 101.63055118110236,
+        "width": 310.3028871391076,
+        "height": 12.95212598425197
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1256.6815748031497,
+        "top": 88.29585301837271,
+        "width": 531.7598950131234,
+        "height": 2,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "8",
+      "name": "Freeform 8",
+      "text": "",
+      "position": {
+        "left": 1805.3034120734908,
+        "top": 52.65606299212599,
+        "width": 71.23989501312336,
+        "height": 71.23989501312336,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "10",
+      "name": "Freeform 10",
+      "text": "",
+      "position": {
+        "left": 43.46141732283465,
+        "top": 41.18225721784777,
+        "width": 413.71002624671917,
+        "height": 96.65994750656168,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "TextBox 11",
+      "text": "Give discounts when the shop is quiet",
+      "position": {
+        "left": 403.9912860892389,
+        "top": 260.9753280839895,
+        "width": 1112.017532808399,
+        "height": 54.72472440944882
+      }
+    },
+    {
+      "id": "12",
+      "name": "TextBox 12",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 1261.5149606299212,
+        "top": 58.21238845144357,
+        "width": 522.0900787401575,
+        "height": 26.280944881889766
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 12",
+      "text": "Don’t pay people to do what they’d do anyway",
+      "position": {
+        "left": 144,
+        "top": 318.72,
+        "width": 1632,
+        "height": 48
+      }
+    },
+    {
+      "id": "14",
+      "name": "Rounded Rectangle 13",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 412.8,
+        "width": 825.6,
+        "height": 350.40000000000003
+      }
+    },
+    {
+      "id": "15",
+      "name": "Oval 14",
+      "text": "3",
+      "position": {
+        "left": 110.4,
+        "top": 446.40000000000003,
+        "width": 76.8,
+        "height": 76.8
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "In plain words",
+      "position": {
+        "left": 211.20000000000002,
+        "top": 453.12,
+        "width": 643.1998950131234,
+        "height": 62.400000000000006
+      }
+    },
+    {
+      "id": "17",
+      "name": "TextBox 16",
+      "text": "Half our discounts go to evening customers, who would come anyway. Move the same discount to quiet mornings and weekends, and stop the 15% campaigns.",
+      "position": {
+        "left": 110.4,
+        "top": 547.2,
+        "width": 748.8000000000001,
+        "height": 201.6
+      }
+    },
+    {
+      "id": "18",
+      "name": "TextBox 17",
+      "text": "52%",
+      "position": {
+        "left": 960,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "19",
+      "name": "TextBox 18",
+      "text": "of discounted items sold in the busy evening",
+      "position": {
+        "left": 960,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "20",
+      "name": "TextBox 19",
+      "text": "$0",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "21",
+      "name": "TextBox 20",
+      "text": "measurable profit gained from the 15% campaigns",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "22",
+      "name": "Rounded Rectangle 21",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 796.8000000000001,
+        "width": 1776,
+        "height": 177.6
+      }
+    },
+    {
+      "id": "23",
+      "name": "TextBox 22",
+      "text": "Try this  At one branch for four weeks, offer the 10% only before 11 AM and on Saturdays. Other branches act as the comparison.\nStop if  profit per visitor doesn’t beat the comparison branches.",
+      "position": {
+        "left": 115.2,
+        "top": 814.08,
+        "width": 1689.6000000000001,
+        "height": 144
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 16.333123359580053,
+        "top": 179.27118110236222,
+        "width": 1887.3298687664042,
+        "height": 882.3399475065617,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "4",
+      "name": "TextBox 4",
+      "text": "ⓒ All rights reserved. American University of Beirut 2026.",
+      "position": {
+        "left": 1474.3307086614175,
+        "top": 101.63055118110236,
+        "width": 310.3028871391076,
+        "height": 12.95212598425197
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1256.6815748031497,
+        "top": 88.29585301837271,
+        "width": 531.7598950131234,
+        "height": 2,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "8",
+      "name": "Freeform 8",
+      "text": "",
+      "position": {
+        "left": 1805.3034120734908,
+        "top": 52.65606299212599,
+        "width": 71.23989501312336,
+        "height": 71.23989501312336,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "10",
+      "name": "Freeform 10",
+      "text": "",
+      "position": {
+        "left": 43.46141732283465,
+        "top": 41.18225721784777,
+        "width": 413.71002624671917,
+        "height": 96.65994750656168,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "TextBox 11",
+      "text": "Ask “want a pastry?” in the evening",
+      "position": {
+        "left": 403.9912860892389,
+        "top": 260.9753280839895,
+        "width": 1112.017532808399,
+        "height": 54.72472440944882
+      }
+    },
+    {
+      "id": "12",
+      "name": "TextBox 12",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 1261.5149606299212,
+        "top": 58.21238845144357,
+        "width": 522.0900787401575,
+        "height": 26.280944881889766
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 12",
+      "text": "A free question, not a discount",
+      "position": {
+        "left": 144,
+        "top": 318.72,
+        "width": 1632,
+        "height": 48
+      }
+    },
+    {
+      "id": "14",
+      "name": "Rounded Rectangle 13",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 412.8,
+        "width": 825.6,
+        "height": 350.40000000000003
+      }
+    },
+    {
+      "id": "15",
+      "name": "Oval 14",
+      "text": "4",
+      "position": {
+        "left": 110.4,
+        "top": 446.40000000000003,
+        "width": 76.8,
+        "height": 76.8
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "In plain words",
+      "position": {
+        "left": 211.20000000000002,
+        "top": 453.12,
+        "width": 643.1998950131234,
+        "height": 62.400000000000006
+      }
+    },
+    {
+      "id": "17",
+      "name": "TextBox 16",
+      "text": "In the evening people sit down with a cold coffee. Staff simply ask if they’d like a pastry with it. No discount, so every extra pastry is pure extra profit.",
+      "position": {
+        "left": 110.4,
+        "top": 547.2,
+        "width": 748.8000000000001,
+        "height": 201.6
+      }
+    },
+    {
+      "id": "18",
+      "name": "TextBox 17",
+      "text": "44.6%",
+      "position": {
+        "left": 960,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "19",
+      "name": "TextBox 18",
+      "text": "of all profit is made between 7 PM and midnight",
+      "position": {
+        "left": 960,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "20",
+      "name": "TextBox 19",
+      "text": "66%",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "21",
+      "name": "TextBox 20",
+      "text": "profit margin on Cold Coffee + Bakery",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "22",
+      "name": "Rounded Rectangle 21",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 796.8000000000001,
+        "width": 1776,
+        "height": 177.6
+      }
+    },
+    {
+      "id": "23",
+      "name": "TextBox 22",
+      "text": "Try this  A scripted pastry prompt from 7 to 11 PM, on alternating weeks, with no discount.\nStop if  it slows the queue at the peak more than the extra pastries earn.",
+      "position": {
+        "left": 115.2,
+        "top": 814.08,
+        "width": 1689.6000000000001,
+        "height": 144
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 16.333123359580053,
+        "top": 179.27118110236222,
+        "width": 1887.3298687664042,
+        "height": 882.3399475065617,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "4",
+      "name": "TextBox 4",
+      "text": "ⓒ All rights reserved. American University of Beirut 2026.",
+      "position": {
+        "left": 1474.3307086614175,
+        "top": 101.63055118110236,
+        "width": 310.3028871391076,
+        "height": 12.95212598425197
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1256.6815748031497,
+        "top": 88.29585301837271,
+        "width": 531.7598950131234,
+        "height": 2,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "8",
+      "name": "Freeform 8",
+      "text": "",
+      "position": {
+        "left": 1805.3034120734908,
+        "top": 52.65606299212599,
+        "width": 71.23989501312336,
+        "height": 71.23989501312336,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "10",
+      "name": "Freeform 10",
+      "text": "",
+      "position": {
+        "left": 43.46141732283465,
+        "top": 41.18225721784777,
+        "width": 413.71002624671917,
+        "height": 96.65994750656168,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "TextBox 11",
+      "text": "Test a 5% price rise at one branch",
+      "position": {
+        "left": 403.9912860892389,
+        "top": 260.9753280839895,
+        "width": 1112.017532808399,
+        "height": 54.72472440944882
+      }
+    },
+    {
+      "id": "12",
+      "name": "TextBox 12",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 1261.5149606299212,
+        "top": 58.21238845144357,
+        "width": 522.0900787401575,
+        "height": 26.280944881889766
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 12",
+      "text": "A $4.00 latte becomes $4.20",
+      "position": {
+        "left": 144,
+        "top": 318.72,
+        "width": 1632,
+        "height": 48
+      }
+    },
+    {
+      "id": "14",
+      "name": "Rounded Rectangle 13",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 412.8,
+        "width": 825.6,
+        "height": 350.40000000000003
+      }
+    },
+    {
+      "id": "15",
+      "name": "Oval 14",
+      "text": "5",
+      "position": {
+        "left": 110.4,
+        "top": 446.40000000000003,
+        "width": 76.8,
+        "height": 76.8
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "In plain words",
+      "position": {
+        "left": 211.20000000000002,
+        "top": 453.12,
+        "width": 643.1998950131234,
+        "height": 62.400000000000006
+      }
+    },
+    {
+      "id": "17",
+      "name": "TextBox 16",
+      "text": "A few cents more per item adds up to a lot of profit, as long as customers keep coming. Raise everything (coffee too) at one branch and watch sales.",
+      "position": {
+        "left": 110.4,
+        "top": 547.2,
+        "width": 748.8000000000001,
+        "height": 201.6
+      }
+    },
+    {
+      "id": "18",
+      "name": "TextBox 17",
+      "text": "+$7,300",
+      "position": {
+        "left": 960,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "19",
+      "name": "TextBox 18",
+      "text": "typical extra profit per 6 months, across 20,000 simulations",
+      "position": {
+        "left": 960,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "20",
+      "name": "TextBox 19",
+      "text": "8%",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "21",
+      "name": "TextBox 20",
+      "text": "how far sales can drop before it stops paying",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "22",
+      "name": "Rounded Rectangle 21",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 796.8000000000001,
+        "width": 1776,
+        "height": 177.6
+      }
+    },
+    {
+      "id": "23",
+      "name": "TextBox 22",
+      "text": "Try this  Raise prices 5% at one branch for four weeks and tidy up odd price endings (e.g. $4.05).\nStop if  baskets per day fall by more than about 8%.",
+      "position": {
+        "left": 115.2,
+        "top": 814.08,
+        "width": 1689.6000000000001,
+        "height": 144
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 16.333123359580053,
+        "top": 179.27118110236222,
+        "width": 1887.3298687664042,
+        "height": 882.3399475065617,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "4",
+      "name": "TextBox 4",
+      "text": "ⓒ All rights reserved. American University of Beirut 2026.",
+      "position": {
+        "left": 1474.3307086614175,
+        "top": 101.63055118110236,
+        "width": 310.3028871391076,
+        "height": 12.95212598425197
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1256.6815748031497,
+        "top": 88.29585301837271,
+        "width": 531.7598950131234,
+        "height": 2,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "8",
+      "name": "Freeform 8",
+      "text": "",
+      "position": {
+        "left": 1805.3034120734908,
+        "top": 52.65606299212599,
+        "width": 71.23989501312336,
+        "height": 71.23989501312336,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "10",
+      "name": "Freeform 10",
+      "text": "",
+      "position": {
+        "left": 43.46141732283465,
+        "top": 41.18225721784777,
+        "width": 413.71002624671917,
+        "height": 96.65994750656168,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "TextBox 11",
+      "text": "Open later where mornings are empty",
+      "position": {
+        "left": 403.9912860892389,
+        "top": 260.9753280839895,
+        "width": 1112.017532808399,
+        "height": 54.72472440944882
+      }
+    },
+    {
+      "id": "12",
+      "name": "TextBox 12",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 1261.5149606299212,
+        "top": 58.21238845144357,
+        "width": 522.0900787401575,
+        "height": 26.280944881889766
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 12",
+      "text": "Don’t pay to keep the lights on for no one",
+      "position": {
+        "left": 144,
+        "top": 318.72,
+        "width": 1632,
+        "height": 48
+      }
+    },
+    {
+      "id": "14",
+      "name": "Rounded Rectangle 13",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 412.8,
+        "width": 825.6,
+        "height": 350.40000000000003
+      }
+    },
+    {
+      "id": "15",
+      "name": "Oval 14",
+      "text": "6",
+      "position": {
+        "left": 110.4,
+        "top": 446.40000000000003,
+        "width": 76.8,
+        "height": 76.8
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "In plain words",
+      "position": {
+        "left": 211.20000000000002,
+        "top": 453.12,
+        "width": 643.1998950131234,
+        "height": 62.400000000000006
+      }
+    },
+    {
+      "id": "17",
+      "name": "TextBox 16",
+      "text": "Uptown’s 7 AM hour earns about $4.37 but costs about $6.53 in staff and generator power. Opening a bit later saves money if those customers just come later.",
+      "position": {
+        "left": 110.4,
+        "top": 547.2,
+        "width": 748.8000000000001,
+        "height": 201.6
+      }
+    },
+    {
+      "id": "18",
+      "name": "TextBox 17",
+      "text": "75%",
+      "position": {
+        "left": 960,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "19",
+      "name": "TextBox 18",
+      "text": "of simulated futures where it makes money",
+      "position": {
+        "left": 960,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "20",
+      "name": "TextBox 19",
+      "text": "+$656",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 417.5998950131234,
+        "width": 422.40000000000003,
+        "height": 139.20000000000002
+      }
+    },
+    {
+      "id": "21",
+      "name": "TextBox 20",
+      "text": "typical saving per 6 months",
+      "position": {
+        "left": 1425.6000000000001,
+        "top": 566.4,
+        "width": 403.2,
+        "height": 182.4
+      }
+    },
+    {
+      "id": "22",
+      "name": "Rounded Rectangle 21",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 796.8000000000001,
+        "width": 1776,
+        "height": 177.6
+      }
+    },
+    {
+      "id": "23",
+      "name": "TextBox 22",
+      "text": "Try this  Open Uptown at 9 AM and Garden at 8 AM for four weeks, after confirming the early-shift roster.\nStop if  the morning customers don’t come back later in the day.",
+      "position": {
+        "left": 115.2,
+        "top": 814.08,
+        "width": 1689.6000000000001,
+        "height": 144
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 16.333123359580053,
+        "top": 179.27118110236222,
+        "width": 1887.3298687664042,
+        "height": 882.3399475065617,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "4",
+      "name": "TextBox 4",
+      "text": "ⓒ All rights reserved. American University of Beirut 2026.",
+      "position": {
+        "left": 1474.3307086614175,
+        "top": 101.63055118110236,
+        "width": 310.3028871391076,
+        "height": 12.95212598425197
+      }
+    },
+    {
+      "id": "6",
+      "name": "Freeform 6",
+      "text": "",
+      "position": {
+        "left": 1256.6815748031497,
+        "top": 88.29585301837271,
+        "width": 531.7598950131234,
+        "height": 2,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "8",
+      "name": "Freeform 8",
+      "text": "",
+      "position": {
+        "left": 1805.3034120734908,
+        "top": 52.65606299212599,
+        "width": 71.23989501312336,
+        "height": 71.23989501312336,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "10",
+      "name": "Freeform 10",
+      "text": "",
+      "position": {
+        "left": 43.46141732283465,
+        "top": 41.18225721784777,
+        "width": 413.71002624671917,
+        "height": 96.65994750656168,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "11",
+      "name": "TextBox 11",
+      "text": "What we would not do",
+      "position": {
+        "left": 403.9912860892389,
+        "top": 260.9753280839895,
+        "width": 1112.017532808399,
+        "height": 54.72472440944882
+      }
+    },
+    {
+      "id": "12",
+      "name": "TextBox 12",
+      "text": "EECE 490 · Stories Coffee Hackathon",
+      "position": {
+        "left": 1261.5149606299212,
+        "top": 58.21238845144357,
+        "width": 522.0900787401575,
+        "height": 26.280944881889766
+      }
+    },
+    {
+      "id": "13",
+      "name": "TextBox 12",
+      "text": "Ideas that sound good but the data says no",
+      "position": {
+        "left": 144,
+        "top": 318.72,
+        "width": 1632,
+        "height": 48
+      }
+    },
+    {
+      "id": "14",
+      "name": "Rounded Rectangle 13",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 412.8,
+        "width": 868.8000000000001,
+        "height": 259.2
+      }
+    },
+    {
+      "id": "15",
+      "name": "Oval 14",
+      "text": "×",
+      "position": {
+        "left": 110.4,
+        "top": 449.28000000000003,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "16",
+      "name": "TextBox 15",
+      "text": "End-of-day discounts",
+      "position": {
+        "left": 192,
+        "top": 449.28000000000003,
+        "width": 720,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "17",
+      "name": "TextBox 16",
+      "text": "Late evening is Stories’ busiest time, not its quietest. A discount there gives money to people already coming.",
+      "position": {
+        "left": 110.4,
+        "top": 528,
+        "width": 792,
+        "height": 129.6
+      }
+    },
+    {
+      "id": "18",
+      "name": "Rounded Rectangle 17",
+      "text": "",
+      "position": {
+        "left": 979.2,
+        "top": 412.8,
+        "width": 868.8000000000001,
+        "height": 259.2
+      }
+    },
+    {
+      "id": "19",
+      "name": "Oval 18",
+      "text": "×",
+      "position": {
+        "left": 1017.6,
+        "top": 449.28000000000003,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "20",
+      "name": "TextBox 19",
+      "text": "Winter or holiday promotions",
+      "position": {
+        "left": 1099.2,
+        "top": 449.28000000000003,
+        "width": 720,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "21",
+      "name": "TextBox 20",
+      "text": "January is the slowest month, but sales grew because more people came, not because of seasons. Holidays showed no effect.",
+      "position": {
+        "left": 1017.6,
+        "top": 528,
+        "width": 792,
+        "height": 129.6
+      }
+    },
+    {
+      "id": "22",
+      "name": "Rounded Rectangle 21",
+      "text": "",
+      "position": {
+        "left": 72,
+        "top": 696,
+        "width": 868.8000000000001,
+        "height": 259.2
+      }
+    },
+    {
+      "id": "23",
+      "name": "Oval 22",
+      "text": "×",
+      "position": {
+        "left": 110.4,
+        "top": 732.48,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "24",
+      "name": "TextBox 23",
+      "text": "A “summer iced drinks” push",
+      "position": {
+        "left": 192,
+        "top": 732.48,
+        "width": 720,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "25",
+      "name": "TextBox 24",
+      "text": "Cold drinks stay at about 60% of sales whether it’s 14 °C or 25 °C. Weather doesn’t move demand.",
+      "position": {
+        "left": 110.4,
+        "top": 811.1998950131234,
+        "width": 792,
+        "height": 129.6
+      }
+    },
+    {
+      "id": "26",
+      "name": "Rounded Rectangle 25",
+      "text": "",
+      "position": {
+        "left": 979.2,
+        "top": 696,
+        "width": 868.8000000000001,
+        "height": 259.2
+      }
+    },
+    {
+      "id": "27",
+      "name": "Oval 26",
+      "text": "×",
+      "position": {
+        "left": 1017.6,
+        "top": 732.48,
+        "width": 59.52,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "28",
+      "name": "TextBox 27",
+      "text": "Bundle discounts",
+      "position": {
+        "left": 1099.2,
+        "top": 732.48,
+        "width": 720,
+        "height": 59.52
+      }
+    },
+    {
+      "id": "29",
+      "name": "TextBox 28",
+      "text": "Items bought together don’t prove a discount would sell more. It would mostly cut profit on sales we already make.",
+      "position": {
+        "left": 1017.6,
+        "top": 811.1998950131234,
+        "width": 792,
+        "height": 129.6
+      }
+    }
+  ],
+  [
+    {
+      "id": "3",
+      "name": "Freeform 3",
+      "text": "",
+      "position": {
+        "left": 909.8181627296589,
+        "top": 922.9433070866143,
+        "width": 100.36,
+        "height": 100.36,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "5",
+      "name": "Freeform 5",
+      "text": "",
+      "position": {
+        "left": 707.8565879265092,
+        "top": 766.1415223097113,
+        "width": 504.28997375328083,
+        "height": 117.81994750656169,
+        "rotation": 0,
+        "horizontalFlip": false,
+        "verticalFlip": false
+      }
+    },
+    {
+      "id": "6",
+      "name": "TextBox 6",
+      "text": "Thank you",
+      "position": {
+        "left": 644.6228871391077,
+        "top": 490.4079790026247,
+        "width": 630.7543307086614,
+        "height": 44.75874015748032
+      }
+    }
+  ]
+]

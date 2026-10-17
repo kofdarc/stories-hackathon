@@ -71,7 +71,7 @@ Use a new/empty destination for imports. The dump uses **SQLite SQL dialect**; i
 
 ## Competitor and market events
 
-`data/external/` lists real, sourced competitor events (café openings, a Café Najjar product launch, rival Ramadan offers) and 2026 Lebanon war and ceasefire dates. `src/competitor_events.py` turns them into day-level features and tests them against daily baskets. No competitor event moved Stories' baskets. Baskets kept growing through the war that the café sector says cut its trade sharply. See [`data/external/EVENTS_SOURCES.md`](data/external/EVENTS_SOURCES.md).
+`data/external/` lists real, sourced competitor events (café openings, a Café Najjar product launch, rival Ramadan offers) and 2026 Lebanon war and ceasefire dates. `src/competitor_events.py` turns them into day-level features and tests them against daily baskets. `python3 database/add_events.py` loads them into `stories.sqlite` (`competitor_events`, `market_events`, `event_days`, and the `transactions_with_events` view) and writes [`data/stories_transactions_with_events.csv`](data/stories_transactions_with_events.csv): every transaction line plus nine event columns. No competitor event moved Stories' baskets. Baskets kept growing through the war that the café sector says cut its trade sharply. See [`data/external/EVENTS_SOURCES.md`](data/external/EVENTS_SOURCES.md).
 
 ## Reconciliation and limitations
 

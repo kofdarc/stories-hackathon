@@ -110,7 +110,7 @@ def answer_followup(report,question,key,model,fallback_key='',history=None):
             text='\n'.join(p.get('text','') for c in answer.get('candidates',[]) for p in c.get('content',{}).get('parts',[]) if not p.get('thought'))
             if not text.strip():raise ProviderError('No explanation returned.')
             return dict(text=text,provider='Gemini',fallback_used=False)
-        except ProviderError:
+        except (ProviderError,ValueError,TypeError,AttributeError):
             if not fallback_key:
                 raise ProviderError('Gemini is unavailable and the DeepSeek backup is not configured. Your recommendations and charts still work.') from None
     if fallback_key:
